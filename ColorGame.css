@@ -1,0 +1,72 @@
+div[id="head"] {
+   text-align:center;
+   color:white;
+   background:rgb(40,150,255);
+   padding : 5px 0;
+}
+
+body {
+      /*background: conic-gradient(at 50% 70% ,#232323 , white);*/
+      background : #232323 ;
+}
+
+.container {
+    margin-left:25%;
+    max-width:660px;
+
+}
+
+ .third , .second , .first{
+    margin : 10px;
+    width : 200px;
+    height : 200px;
+    background-color : #232323;
+    float : left;
+    border-radius : 30px;
+ }
+
+div[id="game_info"] {
+    background : white;
+    height : 30px;
+   /* text-align : center;*/
+    padding-left : 28%;
+}
+
+span {
+    color : rgb(40,150,255);
+    background-color : white;
+    margin : 5px;
+    height : 100% ;
+}
+
+#try {
+    margin : 10% ;
+    margin-left : 12% ;
+}
+
+span:nth-of-type(3) {
+    margin-left : 20px;
+}
+
+span:hover {
+    color : white;
+    background : rgb(40,150,255);
+}
+
+.selected {
+    background : rgb(40,150,255) ;
+    color : white ;
+}
+
+.wrong {
+    /*display : none ;*/
+    transition : background 1.00s  linear;
+    -webkit-transition : background 1.00s linear ;
+    -moz-transtion : background 1.00s  linear ;
+    -o-transition : background 1.00s  linear ;
+    -ms-transition : background 1.00s  linear ;
+}
+
+strong {
+    height : 100%;
+}
