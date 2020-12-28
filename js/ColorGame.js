@@ -8,10 +8,10 @@ var easy = document.getElementById("easy");
 var newColors = document.querySelector("span") ;
 var mode = "hard";
 var number = 18 ;
-var hard = document.querySelector("#hard")
+var hard = document.getElementById('difficult');
 
 
-hard.classList.add("selected");
+hard.classList.add('selected');
 fillColor();
 newColors.addEventListener("click",fillColor);
 
