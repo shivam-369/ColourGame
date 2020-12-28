@@ -40,7 +40,7 @@ function addToColors(mode)
         number = 9 ;
     }else {
         number = 18 ;
-        }
+    }
     selected = Math.floor(number/3 * Math.random());
     while(colors.length != number)
     {
@@ -53,7 +53,7 @@ function addToColors(mode)
 }
 
 function Event()
-{    this.style.display = "block";
+ {  //  this.style.display = "block";
 
      if(this.style.background == divs[selected].style.background){
           for( var j = 0;j < number/3 ;j++)
@@ -79,6 +79,7 @@ function addEvent()
         {
             divs[i].style.background = "rgb("+colors[3*i] +","+ colors[3*i + 1]+","+colors[3*i + 2]+")";
             divs[i].addEventListener("click",Event);
+            divs[i].style.display = "block";
         }
         again.textContent = '';
         newColors.textContent = "NEW COLORS";
